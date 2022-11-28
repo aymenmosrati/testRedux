@@ -12,7 +12,7 @@ const Counter = () => {
   const dispatch = useDispatch();
 
   const isLoggedIn = () => {
-    return globalState.auth.isLoggedIn();
+    return globalState.auth.isLoggedIn;
   };
 
   const loginHandler = (status) => {
